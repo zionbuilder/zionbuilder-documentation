@@ -1,0 +1,52 @@
+:root {
+--vp-c-brand: #646cff;
+--vp-c-brand-light: #646cff;
+--vp-font-family-base: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+// Logo
+.VPNavBarTitle .logo {
+    height: 35px;
+}
+
+.dark .VPNavBarTitle .logo {
+    filter: invert(1);
+}
+
+
+
+.VPFooter {
+    font-size: 12px;
+}
+
+// Lists
+.vp-doc ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    padding-left: 0;
+  }
+
+  .vp-doc ol > li {
+    counter-increment: my-awesome-counter;
+    position: relative;
+    padding-left: 45px;
+  }
+   
+  .vp-doc ol > li::before {
+    content: counter(my-awesome-counter);
+    color: var(--vp-c-gray);
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--vp-c-mute);
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    text-indent: 0;
+    position: absolute;
+    left: 0;
+  }
+  
