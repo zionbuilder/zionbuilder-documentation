@@ -1,4 +1,4 @@
-![Zion builder documentation banner](https://raw.githubusercontent.com/zionbuilder/zionbuilder-documentation/main/src/public/assets/images/readme-banner.png)
+[![Zion builder documentation banner](https://raw.githubusercontent.com/zionbuilder/zionbuilder-documentation/main/src/public/assets/images/readme-banner.png)](https://docs.zionbuilder.io)
 
 # Zion Builder documentation
 
