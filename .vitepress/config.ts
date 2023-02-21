@@ -24,6 +24,10 @@ export default defineConfigWithTheme({
     // siteTitle: false,
     logo: '/assets/images/logo-black.svg',
 
+    editLink: {
+      pattern: 'https://github.com/zionbuilder/zionbuilder-documentation/edit/main/src/:path'
+    },
+
     nav: nav(),
 
     algolia: {
